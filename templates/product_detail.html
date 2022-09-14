@@ -81,7 +81,7 @@
 							{% else %}
 							{% if in_cart %}
                             <a href= "#"> <button type="submit" class="btn  btn-success"> <span class="text">Added to Cart</span> <i class="fa fa-check"></i> </button></a>
-                            <a href= "{% url 'cart' %}"> <button type="submit" class="btn  btn-success"> <span class="text">View Cart</span> <i class="fa fa-eye"></i> </button></a>
+                            <a href= "{% url 'cart' %}"> <button type="submit" class="btn  btn-success"> <span class="text">Add to Cart</span> <i class="fa fa-eye"></i> </button></a>
 
                             {% else %}
                             <a href= "{% url 'add_cart' single_product.id %}"> <button type="submit" class="btn  btn-success"> <span class="text">Add to Cart</span> <i class="fa fa-shopping-cart"></i> </button></a>
